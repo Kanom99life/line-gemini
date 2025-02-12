@@ -1,0 +1,24 @@
+{
+  "name": "shopping-bot",
+  "description": "Line chatbot with gemini",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "node-cache": "^5.1.2",
+    "package": "^1.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9"
+  },
+  "private": true
+}
